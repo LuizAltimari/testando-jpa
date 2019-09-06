@@ -44,6 +44,7 @@ public class AbstractDAO<T> {
 			Criteria c = session.createCriteria(this.classe);
 			return c.list();
 		} catch (RuntimeException e) {
+			System.out.println(e.getMessage());
 			throw e;
 		} finally {
 			session.close();

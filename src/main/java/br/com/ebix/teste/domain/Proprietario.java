@@ -38,6 +38,10 @@ public class Proprietario {
 		this.endereco = endereco;
 		
 	}
+	
+	public Proprietario() {
+		
+	}
 
 	// 3)Faça o encapsulamento dos atributos da classe Proprietário
 

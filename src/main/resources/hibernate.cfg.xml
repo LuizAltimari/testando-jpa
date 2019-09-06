@@ -30,7 +30,7 @@
 		
 		<property name="show_sql">true</property>
 
-		
+		<!-- Se você está pegando este projeto para estudar, mude o validate para create para pode criar o banco -->
 		<property name="hbm2ddl.auto">validate</property>
 		
 		<mapping class = "br.com.ebix.teste.domain.Marca"/>
