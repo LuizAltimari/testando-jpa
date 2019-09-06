@@ -1,7 +1,5 @@
 package br.com.ebix.teste.domain;
 
-import java.util.ArrayList;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -9,7 +7,7 @@ import javax.persistence.Id;
 //10)Altere a classe Proprietário para que o atributo Endereço vire uma classe;
 @Entity
 public class Endereco {
-	
+
 	@Column(length = 30)
 	private String rua;
 	@Column(length = 30)
@@ -25,17 +23,6 @@ public class Endereco {
 	private String complemento;
 
 	public Endereco() {
-	}
-
-	public Endereco(String rua, String bairro, String cidade, String estado, String cep, String complemento,
-			ArrayList<Proprietario> proprietarios) {
-		super();
-		this.rua = rua;
-		this.bairro = bairro;
-		this.cidade = cidade;
-		this.estado = estado;
-		this.cep = cep;
-		this.complemento = complemento;
 	}
 
 	public Endereco(String rua, String bairro, String cidade, String estado, String cep, String complemento) {
