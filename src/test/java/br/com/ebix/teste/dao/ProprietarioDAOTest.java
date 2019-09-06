@@ -44,7 +44,7 @@ public class ProprietarioDAOTest {
 	}
 	
 	@Test
-	
+	@Ignore
 	public void atualizar() {
 		ProprietarioDAO dao = new ProprietarioDAO();
 		Proprietario e = dao.select("11111111111");

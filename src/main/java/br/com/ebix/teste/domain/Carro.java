@@ -59,6 +59,10 @@ public class Carro {
 		this.volumeCombustivel = volumeCombustivel;
 		
 	}
+	
+	public Carro() {
+		
+	}
 
 	// 7)Faça o encapsulamento da classe Carro e seus atributos
 
