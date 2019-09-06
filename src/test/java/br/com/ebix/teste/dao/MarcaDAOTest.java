@@ -43,6 +43,7 @@ public class MarcaDAOTest {
 	}
 	
 	@Test
+	@Ignore
 	public void atualizar() {
 		MarcaDAO dao = new MarcaDAO();
 		Marca m = dao.select(2);
